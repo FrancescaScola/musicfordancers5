@@ -1,0 +1,204 @@
+/* Body */
+body {
+    align-content: center;
+    background-color: rgba(47, 44, 126, 0.63);}
+
+body {
+    width: 100%;
+}
+
+/*Header*/
+#header.alt {
+height: 20em;
+min-height: 20em;
+min-height: 75vh;
+}
+
+ #header {
+background-color: #444;
+color: rgba(255, 255, 255, 1);
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 8em 0 6em 0;
+background-image: url("../immagini/ballo.jpg");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+text-align: center;
+position: relative;
+cursor: default;
+}
+/*iconashare*/
+.icon {
+    text-align: right;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+section .icon {font-size: 30pt!important;}
+
+/*Home,Forum,Pagine generi,ballerini e artisti: h1,h2; MG,MA,MD: h1; Doc: h1,h2,h3,h4,h5;*/
+h1,h2,h3 {font-family: 'Lobster Two', cursive;}
+
+ h1 {
+    display: block;
+    font-size: 5em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: Bold ;
+}
+h2 {font-size: 3em;}
+h2, h3 {
+    text-align: center;
+color: rgba(255, 255, 255,1);
+font-size: 3em}
+
+h4,h5,h6 {
+    text-align: center;
+color: rgba(255, 255, 255,1);
+font-family: 'Lobster Two', cursive;
+font-size: 2em}
+
+/*LOGO*/
+img { color: rgba(255, 255, 255, 0.99);
+    display: block;
+    height: 80px;
+    width: 80px;
+}
+
+img {
+    vertical-align: initial;
+    border-style: none;
+}
+
+.navbar-brand {
+    padding-left: 2em;
+}
+
+/*Navbar*/
+
+.bg-dark {
+    background-color: #5a588e!important;
+}
+    .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+   ;
+}
+
+.nav-item, .nav-link {
+    
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.25em;
+}
+
+
+/*footericons*/
+.fa-envelope {
+    color: rgba(255, 255, 255, 0.99);
+}
+
+ .fa-instagram{
+    align-items: center;
+    color: rgba(255, 255, 255, 0.99);
+ }
+
+ .fa-file {color: rgba(255, 255, 255, 0.99);
+    }
+ 
+.fa-question {
+    color: rgba(255, 255, 255, 0.99);
+ }
+ 
+ .iconfooter {
+    text-align: center;
+    
+}
+
+footer .iconfooter {font-size: 30pt!important;
+padding-right: 0.5em;
+    padding-left: 0.5em;
+text-align: center!important;}
+
+
+/*Immagini MG,MA,MD*/
+.figure-img1 {
+    height: 323px;
+    width: 320px;
+    align-self: center;
+}
+
+.figure-img {
+    height: 323px;
+    width: 320px;
+   align-items: center; 
+}
+
+.figure-caption {
+    font-family: 'Lobster Two', cursive;
+    color:rgba(255, 255, 255, 1);
+    align-self: center;
+}
+
+.bordo {
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+/*IMMAGINI MA,MD*/
+.immagini {
+    padding-left: 4em;
+}
+
+/*Menù Laterale BD ETC..,EM ETC..,GK ETC..;*/
+div .list-group {
+    height: 100%;
+   }
+
+.list-group-item, .list-group-item-action {
+    font-family: 'Lobster Two', cursive;
+    color:rgba(255, 255, 255, 1);
+    background-color: #5a588e!important;
+}
+
+/*Pagine immagini BD ETC..,EM ETC..,GK ETC..;*/
+.mainimage {
+    height: 323px;
+    width: 320px;
+    }
+
+/*Paragrafi di tutte le pagine*/
+p {
+    font-family: 'Lobster Two', cursive;
+    color:rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 1.25em;}
+
+ /*iconaplaylist*/
+
+div .icona {font-size: 30pt!important;
+padding-right: 0.5em;
+    padding-left: 0.5em;
+color: rgba(255, 255, 255, 1);
+text-align: center;}
+
+/*Wireframe documentazione*/
+.wireframe1{
+    height: 323px;
+    width:850px}
+.wireframe {height: 623px;
+    width: 820px;
+}
+
+    /*PAGINAFORUM*/
+ .titolo {text-align: center!important;}
+ .col-10 { max-width: 100%; }
+
+ /*video*/
+ iframe {padding-right: 1.5em;}
+
+
+
