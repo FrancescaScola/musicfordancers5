@@ -190,6 +190,41 @@ text-align: center;}
 .wireframe {height: 623px;
     width: 820px;
 }
+/*Discovers-Newsletter*/
+body {font-family: "Lobster-Two", cursive;}
+
+form {
+  border: 3px solid #f1f1f1;
+  font-family: Lobster-Two;
+}
+
+.container {
+  padding: 20px;
+  background-color: #5a588e ;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #1b1b33;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #1b1b33;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
 
     /*PAGINAFORUM*/
  .titolo {text-align: center!important;}
