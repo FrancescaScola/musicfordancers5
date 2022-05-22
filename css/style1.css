@@ -40,7 +40,8 @@ cursor: default;
 section .icon {font-size: 30pt!important;}
 
 /*Home,Forum,Pagine generi,ballerini e artisti: h1,h2; MG,MA,MD: h1; Doc: h1,h2,h3,h4,h5;*/
-h1,h2,h3 {font-family: 'Lobster Two', cursive;}
+h1,h2,h3 {font-family: 'Lobster Two', cursive;
+letter-spacing: 0.05em;}
 
  h1 {
     display: block;
@@ -61,7 +62,8 @@ h4,h5,h6 {
     text-align: center;
 color: rgba(255, 255, 255,1);
 font-family: 'Lobster Two', cursive;
-font-size: 2em}
+font-size: 2em;
+letter-spacing: 0.05em;}
 
 /*LOGO*/
 img { color: rgba(255, 255, 255, 0.99);
@@ -93,6 +95,7 @@ img {
     
     font-family: 'Lobster Two', cursive;
     font-size: 1.25em;
+    letter-spacing: 0.05em;
 }
 
 
@@ -173,7 +176,8 @@ p {
     font-family: 'Lobster Two', cursive;
     color:rgba(255, 255, 255, 1);
     text-align: center;
-    font-size: 1.25em;}
+    font-size: 1.25em;
+    line-height: 1.5em;}
 
  /*iconaplaylist*/
 
