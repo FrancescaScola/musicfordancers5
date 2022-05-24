@@ -7,6 +7,7 @@ body {
     width: 100%;
 }
 
+
 /*Header*/
 #header.alt {
 height: 20em;
@@ -76,12 +77,16 @@ img {
     vertical-align: initial;
     border-style: none;
 }
-
+/*Navbar*/
+a.active {
+    background-color: white;
+    color: #5a588e!important;
+}
 .navbar-brand {
     padding-left: 2em;
 }
 
-/*Navbar*/
+
 
 .bg-dark {
     background-color: #5a588e!important;
