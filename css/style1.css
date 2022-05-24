@@ -40,7 +40,7 @@ cursor: default;
 }
 section .icon {font-size: 30pt!important;}
 
-/*Home,Forum,Pagine generi,ballerini e artisti: h1,h2; MG,MA,MD: h1; Doc: h1,h2,h3,h4,h5;*/
+/*Home,Forum,Pagine generi,ballerini e artisti: h1,h2; DXG,MA,MD: h1; Doc: h1,h2,h3,h4,h5;*/
 h1,h2,h3 {font-family: 'Lobster Two', cursive;
 letter-spacing: 0.05em;}
 
@@ -87,7 +87,6 @@ a.active {
 }
 
 
-
 .bg-dark {
     background-color: #5a588e!important;
 }
@@ -130,7 +129,7 @@ padding-right: 0.5em;
 text-align: center!important;}
 
 
-/*Immagini MG,MA,MD*/
+/*Immagini DG,MA,MD*/
 .figure-img1 {
     height: 323px;
     width: 320px;
@@ -147,11 +146,12 @@ text-align: center!important;}
     font-family: 'Lobster Two', cursive;
     color:rgba(255, 255, 255, 1);
     align-self: center;
+    font-size: 1.20em;
 }
 
 .bordo {
-    padding-right: 2em;
-    padding-left: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
 /*IMMAGINI MA,MD*/
@@ -168,6 +168,7 @@ div .list-group {
     font-family: 'Lobster Two', cursive;
     color:rgba(255, 255, 255, 1);
     background-color: #5a588e!important;
+    margin-left: 2em;
 }
 
 /*Pagine immagini BD ETC..,EM ETC..,GK ETC..;*/
@@ -177,15 +178,17 @@ div .list-group {
     }
 
 /*Paragrafi di tutte le pagine*/
-p {
-    font-family: 'Lobster Two', cursive;
+p { font-family: 'Lobster Two', cursive;
     color:rgba(255, 255, 255, 1);
     text-align: center;
     font-size: 1.25em;
-    line-height: 1.5em;}
+    line-height: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;}
+
+
 
  /*iconaplaylist*/
-
 div .icona {font-size: 30pt!important;
 padding-right: 0.5em;
     padding-left: 0.5em;
