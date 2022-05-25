@@ -245,5 +245,11 @@ input[type=submit]:hover {
  /*video*/
  iframe {padding-right: 1.5em;}
 
+/*risultati*/
+.risultati {
+    height: 420px;
+    width: 700px;
+}
 
-
+.risultati1 {height: 420px;
+width: 800px;}
